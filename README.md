@@ -1,6 +1,6 @@
 ## Polls - Server side
 
-##Technologies
+## Technologies
 * Spring Boot
 * PostgreSQL
 * JPA

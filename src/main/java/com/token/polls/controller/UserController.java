@@ -2,14 +2,12 @@ package com.token.polls.controller;
 
 import com.token.polls.exception.ResourceNotFoundException;
 import com.token.polls.model.User;
-import com.token.polls.payload.PagedResponse;
 import com.token.polls.payload.UserIdentityAvailability;
 import com.token.polls.payload.UserProfile;
 import com.token.polls.payload.UserSummary;
 import com.token.polls.repository.UserRepository;
 import com.token.polls.security.CurrentUser;
 import com.token.polls.security.UserPrincipal;
-import com.token.polls.util.AppConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

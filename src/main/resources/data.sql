@@ -1,2 +1,3 @@
-INSERT INTO roles(name) VALUES('ROLE_USER');
-INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+INSERT INTO roles (name) VALUES ('ROLE_USER'), ('ROLE_ADMIN')
+ON CONFLICT (name) DO UPDATE
+    SET name = excluded.name;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.token.polls.config</OriginalElement>
+  <nodes>
+    <node x="6.5" y="104.0">com.token.polls.config.AuditingConfig</node>
+    <node x="0.0" y="390.0">com.token.polls.config.WebMvcConfig</node>
+    <node x="0.0" y="0.0">com.token.polls.config.SpringSecurityAuditAwareImpl</node>
+    <node x="0.0" y="203.0">com.token.polls.config.SecurityConfig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.token.polls.config.AuditingConfig" target="com.token.polls.config.SpringSecurityAuditAwareImpl">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="223.0" />
+  <SelectedNodes>
+    <node>com.token.polls.config.AuditingConfig</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

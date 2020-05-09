@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.token.polls.model</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">com.token.polls.model.audit</node>
+    <node x="156.0" y="126.0">com.token.polls.model.Role</node>
+    <node x="157.5" y="0.0">com.token.polls.model.RoleName</node>
+    <node x="110.5" y="296.0">com.token.polls.model.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.token.polls.model.User" target="com.token.polls.model.audit">
+      <point x="-61.66666666666666" y="-148.0" />
+      <point x="141.33333333333334" y="271.0" />
+      <point x="68.0" y="271.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.token.polls.model.User" target="com.token.polls.model.Role">
+      <point x="61.66666666666666" y="-148.0" />
+      <point x="264.66666666666663" y="271.0" />
+      <point x="297.0" y="271.0" />
+      <point x="47.0" y="60.0" />
+    </edge>
+    <edge source="com.token.polls.model.Role" target="com.token.polls.model.RoleName">
+      <point x="47.0" y="-60.0" />
+      <point x="46.25" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="324.0" y="277.0" />
+  <SelectedNodes>
+    <node>com.token.polls.model.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

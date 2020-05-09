@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.token.polls.payload</OriginalElement>
+  <nodes>
+    <node x="229.0" y="341.0">com.token.polls.payload.JwtAuthenticationResponse</node>
+    <node x="0.0" y="0.0">com.token.polls.payload.PagedResponse</node>
+    <node x="271.0" y="550.0">com.token.polls.payload.ApiResponse</node>
+    <node x="0.0" y="550.0">com.token.polls.payload.LoginRequest</node>
+    <node x="0.0" y="341.0">com.token.polls.payload.UserSummary</node>
+    <node x="244.0" y="0.0">com.token.polls.payload.SignUpRequest</node>
+    <node x="500.0" y="550.0">com.token.polls.payload.UserIdentityAvailability</node>
+    <node x="473.0" y="0.0">com.token.polls.payload.UserProfile</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.7790697674418605" x="443.0" y="409.99999999999994" />
+  <SelectedNodes>
+    <node>com.token.polls.payload.JwtAuthenticationResponse</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

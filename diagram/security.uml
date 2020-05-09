@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.token.polls.security</OriginalElement>
+  <nodes>
+    <node x="87.75" y="0.0">com.token.polls.security.UserPrincipal</node>
+    <node x="269.0" y="379.0">com.token.polls.security.CustomUserDetailsService</node>
+    <node x="541.0" y="637.0">com.token.polls.security.CurrentUser</node>
+    <node x="40.25" y="516.0">com.token.polls.security.JwtAuthenticationFilter</node>
+    <node x="0.0" y="637.0">com.token.polls.security.JwtAuthenticationEntryPoint</node>
+    <node x="0.0" y="368.0">com.token.polls.security.JwtTokenProvider</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.token.polls.security.JwtTokenProvider" target="com.token.polls.security.UserPrincipal">
+      <point x="0.0" y="-49.0" />
+      <point x="124.5" y="343.0" />
+      <point x="175.25" y="343.0" />
+      <point x="-87.5" y="159.0" />
+    </edge>
+    <edge source="com.token.polls.security.JwtAuthenticationFilter" target="com.token.polls.security.JwtTokenProvider">
+      <point x="-111.25" y="-38.0" />
+      <point x="151.5" y="491.0" />
+      <point x="124.5" y="491.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.token.polls.security.JwtAuthenticationFilter" target="com.token.polls.security.CustomUserDetailsService">
+      <point x="111.25" y="-38.0" />
+      <point x="374.0" y="491.0" />
+      <point x="401.0" y="491.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.token.polls.security.CustomUserDetailsService" target="com.token.polls.security.UserPrincipal">
+      <point x="0.0" y="-38.0" />
+      <point x="401.0" y="343.0" />
+      <point x="350.25" y="343.0" />
+      <point x="87.5" y="159.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7995226730310262" x="377.0" y="399.00000000000006" />
+  <SelectedNodes>
+    <node>com.token.polls.security.UserPrincipal</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
